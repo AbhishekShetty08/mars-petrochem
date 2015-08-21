@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+
+<style>
+#vertical-ticker{
+	height:400px;
+	overflow:hidden;
+	margin:0; padding:0;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+}
+
+	#vertical-ticker li{
+		padding:35px 20px;
+		display:block;
+		background:#efefef;
+		color:#333;
+		border-bottom:1px solid #ddd;
+		text-align:center;
+		font-size:25px;
+		font-weight:bold;
+		font-family: Helvetica Neue, times, serif;
+	}
+
+#vertical-ticker1{
+	height:400px;
+	overflow:hidden;
+	margin:0; padding:0;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+}
+
+	#vertical-ticker1 li{
+		padding:35px 20px;
+		display:block;
+		background:#efefef;
+		color:#333;
+		border-bottom:1px solid #ddd;
+		text-align:center;
+		font-size:25px;
+		font-weight:bold;
+		font-family: Helvetica Neue, times, serif;
+	}
+</style>
+</head>
+
+<body>
+<ul id="vertical-ticker1">
+			<li>One Time</li>
+			<li>Baby</li>
+			<li>One Less Lonely Girl</li>
+			<li>Somebody to Love</li>
+			<li>Eenie Meenie</li>
+			<li>Never Say Never</li>
+			<li>U Smile</li>
+</ul>
+	<p><a href="#" id="ticker-previous1">Previous</a> / <a href="#" id="ticker-next1">Next</a> / <a id="stop1" href="#">Stop</a> / <a id="start1" href="#">Start</a></p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+$(function(){
+			$('#vertical-ticker1').totemticker({
+				row_height	:	'100px',
+				next		:	'#ticker-next1',
+				previous	:	'#ticker-previous1',
+				stop		:	'#stop1',
+				start		:	'#start1',
+				mousestop	:	true,
+			});
+		});
+</script>
+</html>

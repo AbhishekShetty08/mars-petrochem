@@ -1,0 +1,416 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/**
+ * File: styles.css
+ * Title: BWL Searchable Accordion jQuery Plugin
+ * Description: Custom jQuery code for BWL Searchable Accordion jQuery Plugin
+ * Author: xenioushk
+ * Author Page: http://codecanyon.net/user/xenioushk
+ * Website: http://bluewindalb.net
+ * Version: 1.0.2
+ * Create Date: 04-07-2014	
+ * Last Update: 15-10-2014	
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*     01. ACCORDION STYLES
+/*     02. ACCORDION SEARCH CONTAINER
+/*     03. ACCORDION TITLE BAR
+/*     04. ACCORDION CONTENT
+/*     05. RTL SUPPORT
+/*     06. RESPONSIVE STYLING
+/*========================================================================*/
+
+/******************************************************************************************/
+/*    fonts    */
+/******************************************************************************************/
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/converted/opensans-regular-webfont.eot');
+    src: url('../fonts/converted/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/converted/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/converted/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/converted/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/converted/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.bwl_acc_container {
+  /***********************************************************************************************/
+  /* 01. ACCORDION BASIC STYLES */
+  /***********************************************************************************************/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 300;
+}
+/***********************************************************************************************/
+/* 02. ACCORDION SEARCH CONTAINER */
+/***********************************************************************************************/
+.accordion_search_container {
+  display: none;
+  margin: 0 0 12px 0;
+  position: relative;
+}
+.accordion_search_container .acc_clear_btn {
+  position: absolute;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+.accordion_search_container .acc_clear_btn:after {
+  background: #FFFFFF;
+  right: 8px;
+  top: 4px;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  content: 'X';
+  color: #000000;
+}
+.accordion_search_container .rtl_clear_btn {
+  position: absolute;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+.accordion_search_container .rtl_clear_btn:before {
+  background: #FFFFFF;
+  left: 8px;
+  top: 4px;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  content: 'X';
+  color: #000000;
+}
+.accordion_search_container .accordion_search_input_box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 5px;
+}
+.search_icon {
+  background-origin: content-box;
+  background: url(../images/search.png) no-repeat;
+  background-position: top 10px right 10px;
+  background-position-x: 99%;
+  background-position-y: 50%;
+  border: 1px solid #cccccc;
+}
+.accordion_search_input_box::-ms-clear {
+  display: none;
+}
+.load {
+  background-origin: content-box;
+  background: url(../images/loader.gif) no-repeat;
+  background-position: top 10px right 10px;
+  background-position-x: 99%;
+  background-position-y: 50%;
+}
+.search_result_container {
+  line-height: 24px;
+  display: none;
+  background: #ddd;
+  color: #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 5px;
+  margin-bottom: 12px;
+  font-family:'open_sansregular';
+}
+/***********************************************************************************************/
+/* 03. ACCORDION TITLE BAR */
+/***********************************************************************************************/
+h2.acc_title_bar {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0 0 2px 0;
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  background: transparent;
+  overflow: hidden;
+  -webkit-border-radius: 0px 0px 0 10px;
+  -moz-border-radius: 0px 0px 0 10px;
+  border-radius: 0px 0px 0 10px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+h2.acc_title_bar a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 0 0 0 56px;
+  position: relative;
+}
+h2.acc_title_bar a:after {
+  z-index: 1;
+  left: 20px;
+  top: 0;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 7px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  -webkit-transform: skewX(50deg);
+  -moz-transform: skewX(50deg);
+  -ms-transform: skewX(50deg);
+  -o-transform: skewX(50deg);
+  transform: skewX(50deg);
+  -webkit-transition: 0.5s 0.2s ease-out;
+  -moz-transition: 0.5s 0.2s ease-out;
+  -o-transition: 0.5s 0.2s ease-out;
+  transition: 0.5s 0.2s ease-out;
+}
+h2.acc_title_bar a:before {
+  z-index: 2;
+  content: "\f067";
+  font-family: 'FontAwesome';
+  display: inline-block;
+  width: 48px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  overflow: hidden;
+  -webkit-border-radius: 0px 4px 0 4px;
+  -moz-border-radius: 0px 4px 0 4px;
+  border-radius: 0px 4px 0 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+h2.acc_title_bar a:hover {
+  color: #f0f0f0;
+}
+h2.acc_title_bar a:hover:before {
+  content: "\f067";
+  font-family: 'FontAwesome';
+  display: inline-block;
+  width: 48px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+h2.title-bar-active {
+  background: transparent;
+}
+h2.title-bar-active a {
+  color: #f0f0f0;
+}
+h2.title-bar-active a:after {
+  z-index: 1;
+  left: 20px;
+  top: 0;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 7px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(10deg);
+  -o-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+h2.title-bar-active a:before {
+  content: "\f068";
+  font-family: 'FontAwesome';
+  display: inline-block;
+  width: 48px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+h2.title-bar-active a:hover {
+  color: #f0f0f0;
+}
+h2.title-bar-active a:hover:before {
+  content: "\f068";
+  font-family: 'FontAwesome';
+  display: inline-block;
+  width: 48px;
+  height: 46px;
+  line-height: 46px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/***********************************************************************************************/
+/* 03.0.DEFAULT THEME */
+/***********************************************************************************************/
+h2.default-title-bar {
+  background: #3A474F;
+}
+h2.default-title-bar a {
+  color: #A6A6A6;
+}
+h2.default-title-bar a:after {
+  background: #7A8891;
+}
+h2.default-title-bar a:before {
+  background: #4D616E;
+}
+h2.default-title-bar a:hover {
+  color: #1B2227;
+}
+h2.default-title-bar a:hover:before {
+  background: #4DB5A5;
+}
+h2.default-title-bar-active {
+  background: #18232A;
+}
+h2.default-title-bar-active a {
+  color: #f0f0f0;
+}
+h2.default-title-bar-active a:after {
+  -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  transform: skewX(0deg);
+  background: #cfcf4d;
+}
+h2.default-title-bar-active a:before {
+  content: "\f068";
+  background: #4DB5A5;
+}
+h2.default-title-bar-active a:hover {
+  color: #f0f0f0;
+}
+h2.default-title-bar-active a:hover:before {
+  content: "\f068";
+  background: #4DB5A5;
+}
+
+
+
+
+/***********************************************************************************************/
+/* 04. ACCORDION CONTENT */
+/***********************************************************************************************/
+div.acc_container {
+  margin: 0 0 2px 0;
+  padding: 0;
+  overflow: hidden;
+  clear: both;
+  background:transparent;
+  display: none;
+}
+div.acc_container .block {
+  padding: 0 12px;
+}
+/***********************************************************************************************/
+/* 05. RTL SUPPORT */
+/***********************************************************************************************/
+div.bwl_acc_container_rtl_support {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+  clear: right;
+}
+h2.rtl-title-bar {
+  -webkit-border-radius: 0 10px 0 0;
+  -moz-border-radius: 0 10px 0 0;
+  border-radius: 0 10px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+h2.rtl-title-bar a {
+  padding: 0 56px 0 0 ;
+}
+h2.rtl-title-bar a:after {
+  right: 20px;
+  top: 0;
+  -webkit-transform: skewX(50deg);
+  -moz-transform: skewX(50deg);
+  -ms-transform: skewX(50deg);
+  -o-transform: skewX(50deg);
+  transform: skewX(50deg);
+}
+h2.rtl-title-bar a:before {
+  content: "\f067";
+  right: 0;
+  top: 0;
+  -webkit-border-radius: 0px 4px 0px 0px;
+  -moz-border-radius: 0px 4px 0px 0px;
+  border-radius: 0px 4px 0px 0px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+h2.rtl-title-bar a:hover:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+h2.rtl-title-active a:after {
+  -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+h2.rtl-title-active a:before {
+  content: "\f068";
+}
+h2.rtl-title-active a:hover:before {
+  content: "\f068";
+}
+input.search_icon_rtl {
+  background-position: top 10px left 10px;
+}
+input.load_rtl {
+  background-position: top 10px left 10px;
+}
+.highlight {
+  display: inline;
+  font-style: normal;
+}
+
+/***********************************************************************************************/
+/* 07. RESPONSIVE STYLING */
+/***********************************************************************************************/
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  h2.acc_title_bar {
+    min-height: 46px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  h2.acc_title_bar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0 0 56px;
+    position: relative;
+    height: 100%;
+  }
+}

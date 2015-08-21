@@ -1,0 +1,246 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class=ie6> <![endif]-->
+<!--[if IE 7 ]> <html class=ie7> <![endif]-->
+<!--[if IE 8 ]> <html class=ie8> <![endif]-->
+<!--[if IE 9 ]> <html class=ie9> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+<!--[if lt IE 9]>l
+<script src=http://html5shiv.googlecode.com/svn/trunk/html5.js></script>
+<![endif]-->
+<meta charset="utf-8">
+<title>Mars Petrochem</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="rating" content="general" />
+<meta name="copyright" content="2014, mars petrochem" />
+<meta name="revisit-after" content="7 Days" />
+<meta name="expires" content="never" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="index, follow" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<meta name="viewport" content="width=1240px">
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+<div class="float header-bg">
+<div class="auto2">
+<div class="auto">
+<div class="float">
+
+<ul class="menu">
+<li class="active"><a href="#">HOME</a></li>
+<li><a href="#">PROFILE</a></li>
+<li><a href="#">PRODUCT</a></li>
+<li><a href="#">GALLERY</a></li>
+<li><a href="#">CAREERS</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+
+<div class="right">
+<ul class="links">
+<li><a href="#"><img src="blue-btn1-bg.png" /></a></li>
+<li><a href="#"><img src="blue-btn2-bg.png" /></a></li>
+</ul>
+</div>
+
+
+<div class="float">
+<div class="left mt30">
+<img src="logo.png" alt="logo" title="logo" />
+</div>
+<div class="left mt50 ml40">
+<img src="mobil-logo.png" alt="mobil" title="mobil" />
+</div>
+
+<div class="right mt25 phone">
+<h6><img src="icon-1.png" alt="phone" title="phone"/>+91-22-65505615/ 07/08 /+91-22-23723836</h6>
+<h6><img src="icon-2.png" alt="email" title="email" />info@marspetrochem.com</h6>
+</div>
+</div>
+
+<div class="right" style="position: absolute;z-index: 99999;margin-left: 1000px;margin-top: 115px;">
+<img src="awards.png" alt="awards" title="awards" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="float slider-bg">
+<div class="auto2">
+<div class="auto">
+<div class="float">
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="float dark-green">
+<div class="auto2">
+<div class="auto">
+<div class="float">
+<div class="left mt15 mb5">
+<img src="icon-3.png" alt="news"  title="news" />
+</div>
+<div class="left mt15  ml30">
+<h5>Gulf Oil Lubri standalone Sep '14 sales at Rs 243.27 crore</h5>
+<span>5.13 pm | 06 Nov 2014 |  Source: Moneycontrol.com</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="float middle-bg">
+<div class="auto2">
+<div class="auto">
+<div class="float mt50">
+
+<div class="float left grid1">
+<h1 class="divider pb15">Welcome to Mars Petrochem Pvt Ltd</h1>
+<p class="content mt15">Industrial Oil company, the parent company of Mars Petrochem Pvt Ltd was launched in the year 1938 before India attained Independence. The group has since been the leading distributors of Lubes in Western India for nearly 7 decades.
+<br />
+<br />
+MARS Petrochem was dedicated to the philosophy supplying the world’s finest lubricants to the end users for the most critical lubrication needs, whether mineral or synthetic based.</p>
+
+<a class="blue-btn" href="#">READ MORE</a>
+</div>
+
+<div class="float right grid2 red-bg">
+<h2 class="mt5 ml10">Featured Product</h2>
+<div class="left">
+<p class="content grid3 product">Mobil 1 New Life 0W-40 is made with a proprietary blend of ultra high performance synthetic basestocks fortified with a precisely balanced component system. 
+</p>
+<a class="red-btn" href="#">READ MORE</a>
+</div>
+
+<div class="right oil-can">
+<img src="oil-can.png" alt="oil-can" title="oil-can" />
+</div>
+
+</div>
+
+<div class="float mt20">
+<h3>Industries We Serve:</h3>
+<div class="float divider"></div>
+<div class="left grid4 mr30 mt30">
+<img src="indus-lubri.png" alt="Industrial-Lubricants" title="Industrial-Lubricants" />
+<h4 class="mt20">Our Industrial Lubricants are :</h4>
+<ul class="type grid4">
+<li>
+<p class="content p25">Developed with close Original <br />Equipment Manufacturer (OEM) <br/>involvement.</p>
+</li>
+<div class="float divider"></div>
+<li>
+<p class="content p25">Engineered for excellence.</p>
+</li>
+<div class="float divider"></div>
+<li>
+<p class="content p25">Comprehensively lab and field tested.</p>
+</li>
+</ul>
+<a class="offer-btn mt30">PRODUCTS OFFERED</a>
+</div>
+
+<div class="left grid4 mr30 mt30">
+<img src="auto-lubri.png" alt="Automotive Lubricants" title="Automotive Lubricants" />
+<p class="content mt20 p25">
+Nothing works harder to keep your car, truck, van or SUV running smoothly than Mobil oils.
+<br />
+<br />
+From conventional to fully synthetic, high-performance to high-mileage, Mobil has the type of oil you need to go the distance time & again.
+</p>
+<a class="offer-btn mt30">PRODUCTS OFFERED</a>
+</div>
+
+<div class="right grid4 mt30">
+<img src="mari-lubri.png" alt="Marine Lubricants" title="Marine Lubricants" />
+<p class="content mt20 p25">
+ExxonMobil Marine Lubricants' high-quality products are protecting the engines and shipboard equipment of the world's most important fleets.
+<br />
+Our services, such as Signum Oil Analysis, are helping many customers monitor....... 
+</p>
+<a class="offer-btn mt30">PRODUCTS OFFERED</a>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="float dark-green">
+<div class="auto2">
+<div class="auto">
+<div class="float mt35">
+
+<div class="left grid2">
+<a href="#"><img src="mars-logo.png" alt="logo" title="logo" /></a>
+<p class="content mt20">Copyright &copy; 2015, <a class="link" href="#">Mars Petrochem Pvt Ltd.</a></p>
+<p class="content">All Rights Reserved.</p>
+<br />
+<p class="content">
+<a class="link" href="#">Privacy Policy </a> |  <a class="link" href="#">Disclaimer</a>
+</p>
+<br />
+<ul class="social">
+<li><a href="#"><img src="facebook.png" alt="facebook" title="facebook" /></a></li>
+<li><a href="#"><img src="twitter.png" alt="twitter" title="twitter" /></a></li>
+<li><a href="#"><img src="in.png" alt="in" title="in" /></a></li>
+</ul>
+</div>
+
+<div class="left grid2">
+<h4><span class="ml25">NAVIGATE</span></h4>
+<ul class="naviagte">
+<li class="active2"				><a href="#">Home</a></li>
+<div class="float divider"></div>
+<li><a href="#">Profile</a></li>
+<div class="float divider"></div>
+<li><a href="#">Products</a></li>
+<div class="float divider"></div>
+<li><a class="sheet" href="#">Material Safety Data Sheet</a></li>
+</ul>
+
+<ul class="naviagte">
+<li><a href="#">Careers</a></li>
+<div class="float divider"></div>
+<li><a href="#">Product Selector</a></li>
+<div class="float divider"></div>
+<li><a href="#">Gallery</a></li>
+<div class="float divider"></div>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+
+<div class="right grid2">
+<h4><span class="ml30">CONTACT</span></h4>
+<ul class="contact">
+<li class="phone-icon"><p class="content ">Call Us At :<br />+91-22-65505615/ 07/08 / </p>
+<p  class="content">+91-22-23723836</p></li>
+<div class="float divider"></div>
+<li class="email-icon"><p class="content">Email Us Here :<br />info@marspetrochem.com</p></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
